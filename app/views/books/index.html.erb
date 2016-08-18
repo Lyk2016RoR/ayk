@@ -1,0 +1,13 @@
+<h1>Tüm Kitaplar</h1><hr>
+<table class="table">
+	<% @books.each do |book| %>
+	<tr>
+		<td><%= link_to book.name, book_path(book) %></td>
+		<td><%= book.published_date %></td>
+		<td><%= book.page_number %></td>
+
+	</tr>
+	<% end %>
+</table>
+<hr>
+<h3><%= link_to 'Yeni Kitap', new_book_path %></h3>
