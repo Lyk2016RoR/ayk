@@ -21,7 +21,7 @@ class FavoritesController < ApplicationController
     @favorite = Favorite.find(params[:id])
 
     @favorite.destroy
-    flash[:success] = "Bu kitap Okunmadı olarak işaretlendi"
+    flash[:success] = "Bu kitap okunmadı olarak işaretlendi"
     redirect_to favorites_path
   end
 
