@@ -8,6 +8,10 @@
 			<%= link_to "Sil", writer_path(@writer), method: :delete %>
 		<% end %>
 	</tr>
-</table>
-
+</table><br>
+<h1>Bu Yazarın Kitapları</h1><br>
+<% @writer.books.each do |e| %>
+<%=	e.name %><br>
+<% end %>
+<br>
 <%= link_to "Yazarlara Dön", writers_path %>

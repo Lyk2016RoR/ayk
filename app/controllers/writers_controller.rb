@@ -11,7 +11,7 @@ class WritersController < ApplicationController
 	end
 
 	def show
- 		
+		@writer = Writer.find(params[:id])
 	end
 
 	def create

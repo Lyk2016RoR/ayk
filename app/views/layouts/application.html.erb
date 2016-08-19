@@ -30,8 +30,10 @@
         <li><%= link_to 'Yazarlar', writers_path %></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <%= link_to current_user.email + " İle Giriş Yapıldı. Çıkış Yap", destroy_user_session_path, method: :delete %><br>
-        <%= link_to "Okuduğum kitapları Görüntüle", favorites_path %>
+        <% if current_user.present? %>
+          <%= link_to current_user.email + " İle Giriş Yapıldı. Çıkış Yap", destroy_user_session_path, method: :delete %><br>
+          <%= link_to "Okuduğum kitapları Görüntüle", favorites_path %>
+        <% end %>
       </ul>
       <% if !current_user.present? %>
         <ul class="nav navbar-nav navbar-right">
