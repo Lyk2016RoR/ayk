@@ -10,25 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20160818200413) do
-=======
-ActiveRecord::Schema.define(version: 20160819065509) do
->>>>>>> origin/user
-=======
 ActiveRecord::Schema.define(version: 20160819073654) do
->>>>>>> db1e5a636c4d0359362c77dc9c3f3f11fa67b2f8
-=======
-ActiveRecord::Schema.define(version: 20160819071611) do
->>>>>>> origin/admin
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-<<<<<<< HEAD
-=======
   create_table "admins", force: :cascade do |t|
     t.string   "email"
     t.string   "encrypted_password",     default: "", null: false
@@ -48,37 +34,22 @@ ActiveRecord::Schema.define(version: 20160819071611) do
     t.index ["reset_password_token"], name: "index_admins_on_reset_password_token", unique: true, using: :btree
   end
 
->>>>>>> origin/admin
   create_table "books", force: :cascade do |t|
     t.string   "name"
     t.date     "published_date"
     t.integer  "page_number"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
-<<<<<<< HEAD
     t.integer  "category_id"
     t.integer  "writer_id"
     t.index ["category_id"], name: "index_books_on_category_id", using: :btree
     t.index ["writer_id"], name: "index_books_on_writer_id", using: :btree
   end
 
-<<<<<<< HEAD
   create_table "categories", force: :cascade do |t|
-    t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string "name"
   end
 
-  create_table "writers", force: :cascade do |t|
-    t.string   "name"
-    t.text     "bio"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  add_foreign_key "books", "categories"
-<<<<<<< HEAD
-=======
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
@@ -95,18 +66,15 @@ ActiveRecord::Schema.define(version: 20160819071611) do
     t.string   "username"
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
-=======
   end
 
-  create_table "categories", force: :cascade do |t|
+  create_table "writers", force: :cascade do |t|
     t.string   "name"
+    t.text     "bio"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
->>>>>>> origin/admin
   end
 
->>>>>>> origin/user
-=======
+  add_foreign_key "books", "categories"
   add_foreign_key "books", "writers"
->>>>>>> db1e5a636c4d0359362c77dc9c3f3f11fa67b2f8
 end
