@@ -1,4 +1,5 @@
 class BooksController < ApplicationController
+  has_many :comments
   def index
     @books = Book.all
   end
@@ -46,7 +47,6 @@ class BooksController < ApplicationController
   end
 
   private
-
   def strong_params
   	params.require(:book).permit(:name, :published_date, :page_number)
   end

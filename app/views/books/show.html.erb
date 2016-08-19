@@ -9,4 +9,17 @@
 		<td><%= link_to "Sil", book_path(@book), method: :delete %></td>
 	</tr>
 </table>
+
+<div class="panel panel-default">
+ <div class="panel-heading">
+
+  </div>
+  <div class="panel-body">
+
+    <% @books.comments.each do |comment| %>
+      <p><%= comment.body %></p>
+    <% end %>
+
+  </div>
+</div>
 <%= link_to "Yazarlara Dön", books_path %>
