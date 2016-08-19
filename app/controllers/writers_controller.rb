@@ -11,9 +11,18 @@ class WritersController < ApplicationController
 	end
 
 	def show
+ 		
 	end
 
-	def create 
+	def create
+			@writer = Writer.new(strong_params)
+  		  
+ 				if @writer.save
+			redirect_to writer_path(@writer)
+ 				else
+			render :new
+		end
+
 
 	end
 
@@ -43,6 +52,10 @@ private
 
 	def set_writer
 		@writer = Writer.find(params[:id])
+	end
+
+	def strong_params
+		params.require(:writer).permit(:name, :bio)
 	end
 end
 
