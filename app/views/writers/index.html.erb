@@ -1,10 +1,23 @@
-<% @writers.each do |writer| %>
-	<br/>
-	<li>
-	<b>Name : </b>	<a href="<%= writer_path(writer) %>"><%= writer.name %></a>
-	<b>Biyografi : </b>	<%= writer.bio %>
-	</li>
-<% end %>
+<table class="table">
+	<tr>
+		<td><b>Yazarın Adı</b></td>
+		<td><b>Yazar Hakkında</b></td>
+		<% if current_user.present? and current_user.admin? %>
+			<td><b>Güncelle</b></td>
+			<td><b>Sil</b></td>
+		<% end %>
+	</tr>
+	<% @writers.each do |writer| %>
+	<tr>
+		<td><%= link_to writer.name, writer_path(writer) %></td>
+		<td><%= writer.bio %></td>
+		<% if current_user.present? and current_user.admin? %>
+			<td><%= link_to "Güncelle", edit_writer_path(writer) %></td>
+			<td><%= link_to "Sil", writer_path(writer), method: :delete %></td>
+		<% end %>
+	</tr>
+	<% end %>
+</table>
 <br/>
 <% if current_user.present? and current_user.admin? %>
 	<%= link_to "Yazar ekle", new_writer_path %>

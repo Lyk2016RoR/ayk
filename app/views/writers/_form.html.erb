@@ -1,8 +1,8 @@
 <%= form_for @writer do |f| %>
-	<%= f.label 'Adı : '  %><br>
+	<%= f.label 'Adı : '  %>
 	<%= f.text_field :name, placeholder: 'name' %><br><br>
-	<%= f.label 'Biyografi : ' %><br>
-	<%= f.text_area :bio, placeholder: 'bio', rows: 50 %><br><br>
+	<%= f.label 'Biyografi : ' %>
+	<%= f.text_area :bio, placeholder: 'bio', rows: 5 %><br><br>
 
 
 	<%= f.submit 'Gonder'%>

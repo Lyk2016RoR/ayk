@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   end
   resources :categories
   resources :writers
+  resources :admin
 end

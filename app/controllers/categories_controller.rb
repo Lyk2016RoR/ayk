@@ -1,4 +1,7 @@
 class CategoriesController < ApplicationController
+  before_action :authenticate_user!, except: [:index, :show]
+  before_action :authorize_user!, only: [:edit, :update, :destroy, :new, :create]
+  
   def index
     @categories = Category.all
   end
@@ -49,5 +52,9 @@ class CategoriesController < ApplicationController
 
   def strong_params
   	params.require(:category).permit(:name, :published_date, :page_number)
+  end
+
+  def authorize_user!
+    redirect_to root_path, notice: "Not authorized" unless current_user.admin?
   end
 end

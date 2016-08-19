@@ -3,8 +3,10 @@
 	<tr>
 		<td><%= @category.id %></td>
 		<td><%= @category.name %></td>
-		<td><%= link_to "Güncelle", edit_category_path(@category) %></td>
-		<td><%= link_to "Sil", category_path(@category), method: :delete %></td>
+		<% if current_user.present? and current_user.admin? %>
+			<td><%= link_to "Güncelle", edit_category_path(@category) %></td>
+			<td><%= link_to "Sil", category_path(@category), method: :delete %></td>
+		<% end %>
 	</tr>
 </table>
 
