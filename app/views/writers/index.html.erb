@@ -1,10 +1,11 @@
 <% @writers.each do |writer| %>
 	<br/>
 	<li>
-	<b>Name:</b>	<a href="<%= writer_path(writer) %>"><%= writer.name %></a>
-	<b>Biyografi</b>	<%= writer.bio %>
+	<b>Name : </b>	<a href="<%= writer_path(writer) %>"><%= writer.name %></a>
+	<b>Biyografi : </b>	<%= writer.bio %>
 	</li>
-<%end%>
+<% end %>
 <br/>
-
-
+<% if current_user.present? and current_user.admin? %>
+	<%= link_to "Yazar ekle", new_writer_path %>
+<% end %>

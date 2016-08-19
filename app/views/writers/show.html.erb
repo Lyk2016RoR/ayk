@@ -2,13 +2,11 @@
 
 <h1>Yazar <%= @writer.name %> Hakkında</h1>
 
-<table class="table">
-	<tr>
-		<td><%= @writer.name %></td>
-		<td><%= @writer.bio %></td>
-		
-		<td><%= link_to "Güncelle", edit_writer_path(@writer) %></td>
-		<td><%= link_to "Sil", writer_path(@writer), method: :delete %></td>
+<%= @writer.bio %>
+		<% if current_user.present? and current_user.admin? %>
+			<%= link_to "Güncelle", edit_writer_path(@writer) %>
+			<%= link_to "Sil", writer_path(@writer), method: :delete %>
+		<% end %>
 	</tr>
 </table>
 
