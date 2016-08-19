@@ -15,7 +15,7 @@ class BooksController < ApplicationController
 		@book = Book.find(params[:id])
 
 		if @book.update(strong_params)
-			flash[:success] = "Kişi Başarıyla Güncellendi"
+			flash[:success] = "Kitap Başarıyla Güncellendi"
       redirect_to book_path(@book)
     else
       render :edit
@@ -24,6 +24,8 @@ class BooksController < ApplicationController
 
 	def new
 		@book = Book.new
+    @categories = Category.all.collect {|c| [c.name, c.id]}
+    @writers = Writer.all.collect {|w| [w.name, w.id]}
 	end
 
 	def create
@@ -48,6 +50,7 @@ class BooksController < ApplicationController
   private
 
   def strong_params
-  	params.require(:book).permit(:name, :published_date, :page_number)
+  	params.require(:book).permit(:name, :published_date, :page_number, :category_id,
+    :writer_id)
   end
 end

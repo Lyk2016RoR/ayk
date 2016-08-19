@@ -5,6 +5,8 @@
 		<td><%= link_to book.name, book_path(book) %></td>
 		<td><%= book.published_date %></td>
 		<td><%= book.page_number %></td>
+		<td><%= book.category.name %></td>
+		<td><%= book.writer.name %></td>
 
 	</tr>
 	<% end %>

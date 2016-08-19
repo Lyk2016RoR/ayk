@@ -16,7 +16,7 @@ class WritersController < ApplicationController
 
 	def create
 			@writer = Writer.new(strong_params)
-  		  
+
  				if @writer.save
 			redirect_to writer_path(@writer)
  				else
@@ -58,4 +58,3 @@ private
 		params.require(:writer).permit(:name, :bio)
 	end
 end
-

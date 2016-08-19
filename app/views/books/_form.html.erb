@@ -5,6 +5,7 @@
 	<%= f.date_field :published_date %><br>
 		<%= f.label 'page_number : ' %>
 	<%= f.text_field :page_number %><br>
-
+	<%= f.select :category_id, @categories %><br>
+	<%= f.select :writer_id, @writers %><br><br>
 	<%= f.submit 'Gonder'%><br>
 <% end %>

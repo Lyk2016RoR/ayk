@@ -1,0 +1,10 @@
+<h1><%= @category.name %></h1>
+<table class="table">
+	<tr>
+		<td><%= @category.id %></td>
+		<td><%= @category.name %></td>
+		<td><%= link_to "Güncelle", edit_category_path(@category) %></td>
+		<td><%= link_to "Sil", category_path(@category), method: :delete %></td>
+	</tr>
+</table>
+<%= link_to "Kategorilere Dön", categories_path %>
