@@ -1,15 +1,15 @@
 <h1><%= @book.name %></h1>
 <table class="table">
 	<tr>
-		<td><%= @book.id %></td>
-		<td><%= @book.name %></td>
-		<td><%= @book.published_date %></td>
-		<td><%= @book.page_number %></td>
-		<td><%= link_to @book.category.name, category_path(@book.category) %></td>
-		<td><%= link_to @book.writer.name, writer_path(@book.writer) %></td>
+		<td><b>Kitap ID</b></td>
+		<td><b>Kitabın Adı</b></td>
+		<td><b>Basım Yılı</b></td>
+		<td><b>Sayfa Sayısı</b></td>
+		<td><b>Kategorisi</b></td>
+		<td><b>Yazarı</b></td>
 		<% if current_user.present? and current_user.admin? %>
-			<td><%= link_to "Güncelle", edit_book_path(@book) %></td>
-			<td><%= link_to "Sil", book_path(@book), method: :delete %></td>
+			<td><b>Güncelle</b></td>
+			<td><b>Sil</b></td>
 		<% end %>
 	</tr>
 	<tr>

@@ -1,5 +1,13 @@
 <h1>Tüm Kitaplar</h1><hr>
 <table class="table">
+	<tr>
+		<td><b>Kitabın Adı</b></td>
+		<td><b>Basım Yılı</b></td>
+		<td><b>Sayfa Sayısı</b></td>
+		<td><b>Kategorisi</b></td>
+		<td><b>Yazarı</b></td>
+
+	</tr>
 	<% @books.each do |book| %>
 	<tr>
 		<td><%= link_to book.name, book_path(book) %></td>
