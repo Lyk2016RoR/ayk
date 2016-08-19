@@ -10,5 +10,13 @@
 
   <body>
     <%= yield %>
+    <hr>
+    <% if current_user.present? %>
+      <%= current_user.email + " İle Giriş Yapıldı " %>
+      <%= link_to "Çıkış Yap", destroy_user_session_path, method: :delete %>
+    <% else %>
+      <%= link_to 'Giriş Yap', new_user_session_path %>
+      <%= link_to 'Kayıt Ol', new_user_registration_path %>
+    <% end %>
   </body>
 </html>

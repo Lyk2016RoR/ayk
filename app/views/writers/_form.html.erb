@@ -1,0 +1,9 @@
+<%= form_for @writer do |f| %>
+	<%= f.label :name %><br>
+	<%= f.text_field :name, placeholder: 'name' %><br><br>
+	<%= f.label :Biyografi %><br>
+	<%= f.text_area :bio, placeholder: 'bio', rows: 50 %><br><br>
+	
+
+	<%= f.submit 'Gonder'%>
+<% end %>
