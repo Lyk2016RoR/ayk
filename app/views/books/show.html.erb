@@ -5,6 +5,20 @@
 		<td><%= @book.name %></td>
 		<td><%= @book.published_date %></td>
 		<td><%= @book.page_number %></td>
+		<td><%= link_to @book.category.name, category_path(@book.category) %></td>
+		<td><%= link_to @book.writer.name, writer_path(@book.writer) %></td>
+		<% if current_user.present? and current_user.admin? %>
+			<td><%= link_to "Güncelle", edit_book_path(@book) %></td>
+			<td><%= link_to "Sil", book_path(@book), method: :delete %></td>
+		<% end %>
+	</tr>
+	<tr>
+		<td><%= @book.id %></td>
+		<td><%= @book.name %></td>
+		<td><%= @book.published_date %></td>
+		<td><%= @book.page_number %></td>
+		<td><%= link_to @book.category.name, category_path(@book.category) %></td>
+		<td><%= link_to @book.writer.name, writer_path(@book.writer) %></td>
 		<% if current_user.present? and current_user.admin? %>
 			<td><%= link_to "Güncelle", edit_book_path(@book) %></td>
 			<td><%= link_to "Sil", book_path(@book), method: :delete %></td>

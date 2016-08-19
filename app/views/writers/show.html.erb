@@ -11,7 +11,7 @@
 </table><br>
 <h1>Bu Yazarın Kitapları</h1><br>
 <% @writer.books.each do |e| %>
-<%=	e.name %><br>
+<%= link_to	e.name, book_path(e) %><br>
 <% end %>
-<br>
+<br><br><br>
 <%= link_to "Yazarlara Dön", writers_path %>

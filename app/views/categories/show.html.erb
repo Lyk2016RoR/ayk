@@ -7,4 +7,10 @@
 		<td><%= link_to "Sil", category_path(@category), method: :delete %></td>
 	</tr>
 </table>
+
+<h1>Bu Kategoriye Ait Kitaplar</h1><br>
+<% @category.books.each do |e| %>
+<%= link_to	e.name, book_path(e) %><br>
+<% end %>
+<br><br><br>
 <%= link_to "Kategorilere Dön", categories_path %>
