@@ -1,0 +1,7 @@
+
+<% @favorites.each do |e| %>
+<%= link_to e.book.name, book_path(e.book) %>
+	<% if current_user.present? and current_user.id == e.user.id %>
+		<%= link_to 'Sil', favorite_path(e), method: :delete %>
+	<% end %><br>
+<% end %>

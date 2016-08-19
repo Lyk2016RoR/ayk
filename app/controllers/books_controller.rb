@@ -5,10 +5,14 @@ class BooksController < ApplicationController
 
   def show
     @book = Book.find(params[:id])
+    @comment = Comment.new
+    @favorite = Favorite.new
   end
 
   def edit
 		@book = Book.find(params[:id])
+    @categories = Category.all.collect {|c| [c.name, c.id]}
+    @writers = Writer.all.collect {|w| [w.name, w.id]}
 	end
 
 	def update
