@@ -1,0 +1,10 @@
+<% @writers.each do |writer| %>
+	<br/>
+	<li>
+	<b>Name:</b>	<a href="<%= writer_path(writer) %>"><%= writer.name %></a>
+	<b>Biyografi</b>	<%= writer.bio %>
+	</li>
+<%end%>
+<br/>
+
+

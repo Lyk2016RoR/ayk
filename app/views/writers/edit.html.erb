@@ -1,0 +1,10 @@
+<h1>Düzenle <%= @writer.name %> </h1>
+
+<% if @writer.errors.any? %>
+	<h3>
+	<%=  @writer.errors.full_messages.join(", ") %>
+	</h3>
+<%end%>
+
+
+<%= render "form" %>

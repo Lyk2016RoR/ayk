@@ -1,11 +1,15 @@
+
+
 <h1>Yazar <%= @writer.name %> Hakkında</h1>
+
 <table class="table">
 	<tr>
-		<td><%= @writer.id %></td>
 		<td><%= @writer.name %></td>
-		<td><%= @writer.page_number %></td>
+		<td><%= @writer.bio %></td>
+		
 		<td><%= link_to "Güncelle", edit_writer_path(@writer) %></td>
 		<td><%= link_to "Sil", writer_path(@writer), method: :delete %></td>
 	</tr>
 </table>
+
 <%= link_to "Yazarlara Dön", writers_path %>

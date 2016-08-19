@@ -1,0 +1,1597 @@
+    1  ruby -v
+    2  rails -v
+    3  exit
+    4  rvm
+    5  rbenv
+    6  rails -v
+    7  ruby -v
+    8  rails new foobar
+    9  rails -v
+   10  ruby -v
+   11  exit
+   12  sudo mkdir -p /opt/Rubymine
+   13  sudo tar -zxvf RubyMine-6.0.tar.gz --strip-components 1 -C /opt/RubyMine
+   14  ls
+   15  cd Masaüstü
+   16  ls
+   17  cd RubyMine
+   18  sudo tar -zxvf RubyMine-6.0.tar.gz --strip-components 1 -C/Masaüstü/RubyMine
+   19  cd ..
+   20  ls
+   21  cd RubyMine
+   22  ls
+   23  cd RubyMine-2016.2.1
+   24  ls
+   25  cd bin
+   26  ./rubymine.sh
+   27  rails new fff
+   28  ls
+   29  cd deneme
+   30  rails server
+   31  cd ..
+   32  ls 
+   33  cd fff
+   34  rails server
+   35  ls
+   36  cd fff
+   37  rails server
+   38  rails generate scaffold post title text:text
+   39  rake db:migrate
+   40  rails server
+   41  ping 192.168.1.1
+   42  irb
+   43  irb --prompt xmp
+   44  exit
+   45  cd ..
+   46  ls
+   47  remove deneme
+   48  irb --prompt xmp
+   49  ls
+   50  cd foobar
+   51  ls
+   52  rails server
+   53  rake db:migrate
+   54  rails server
+   55  irb --prompt xmp
+   56  env
+   57  path
+   58  ssh -T git@github.com
+   59  irb --prompt xmp
+   60  ruby -v
+   61  rails -v
+   62  exit
+   63  ssh -T git@github.com
+   64  irb --prompt xmp
+   65  exir
+   66  exit
+   67  Time.now
+   68  ext
+   69  exit
+   70  irb --prompt xmp
+   71  exit
+   72  pwd
+   73  mkdir lyk2016
+   74  cd lyk2016
+   75  ruby -v
+   76  rails -v
+   77  ls
+   78  pwd
+   79  rails new blog
+   80  ls
+   81  cd blog
+   82  bundle install
+   83  sudo add-apt-repository ppa:webupd8team/sublime-text-2
+   84  git init
+   85  ls -all
+   86  cd .git/
+   87  cd ..
+   88  git status
+   89  git add README.md
+   90  git status
+   91  git add .
+   92  git status
+   93  git commit -m "initial project"
+   94  git status
+   95  git log
+   96  ls -a
+   97  git status
+   98  git diff
+   99  git reset
+  100  git status
+  101  git checkout .
+  102  git status
+  103  clear
+  104  sudo apt-get update
+  105  sudo apt-get install sublime-text
+  106  exit
+  107  ls -a
+  108  cd lyk2016
+  109  ls -a
+  110  cd blog
+  111  clear
+  112  git log
+  113  git status
+  114  are u okay
+  115  exit
+  116  ls -s
+  117  cd Genel
+  118  ls -s
+  119  ls -a
+  120  cd ..
+  121  ls -a
+  122  cd lyk2016
+  123  ls -a
+  124  cd blog
+  125  cd ..
+  126  cd blog
+  127  irb cd ..
+  128  cd ..
+  129  ls
+  130  ls -a
+  131  s
+  132  ls
+  133  cd Masaüstü
+  134  ls
+  135  irb
+  136  ruby px.rb
+  137  adam
+  138  ruby px.rb
+  139  exit
+  140  cd Masaüstü
+  141  ls -a
+  142  nano odev2.rb
+  143  ruby odev2.rb
+  144  nano odev2.rb
+  145  ruby odev2.rb
+  146  nano odev2.rb
+  147  ruby odev2.rb
+  148  nano odev2.rb
+  149  ruby odev2.rb
+  150  nano odev2.rb
+  151  ruby odev2.rb
+  152  nano odev2.rb
+  153  ruby odev2.rb
+  154  40
+  155  ruby odev2.rb
+  156  nano odev2.rb
+  157  ruby odev2.rb
+  158  20
+  159  nano odev2.rb
+  160  ruby odev2.rb
+  161  a
+  162  ruby odev2.rb
+  163  10
+  164  a
+  165  nano odev2.rb
+  166  ruby odev2.rb
+  167  nano odev2.rb
+  168  ruby odev2.rb
+  169  nano odev2.rb
+  170  ruby odev2.rb
+  171  10
+  172  ruby odev2.rb
+  173  10
+  174  ruby odev.rb
+  175  15
+  176  ruby odev.rb
+  177  15
+  178  ruby odev.rb
+  179  ruby odev3.rb
+  180  cd Masaüstü
+  181  ruby odev2.rb
+  182  ruby odev.rb
+  183  ruby odev2.rb
+  184  ls -a
+  185  cd Masaüstü
+  186  ls -a
+  187  ruby odev.rb
+  188  exit
+  189  ls -a
+  190  cd Masaüstü
+  191  ruby odev.rb
+  192  cd Masaüstü
+  193  ruby odev.rb
+  194  xit
+  195  exit
+  196  pwd
+  197  exit
+  198  ls -a
+  199  cd Masaüstü
+  200  clear
+  201  ruby odev.rb
+  202  exit
+  203  cd Masaüstü
+  204  ruby odev.rb
+  205  rails -v
+  206  clear
+  207  rails new idea_board
+  208  cd idea_board
+  209  pwd
+  210  wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo apt-key add -
+  211  sudo apt-get update
+  212  sudo apt-get install postgresql-common
+  213  sudo apt-get install postgresql-9.5 libpq-dev
+  214  service postresql status
+  215  sudo sh -c "echo 'deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main' > /etc/apt/sources.list.d/pgdg.list"
+  216  wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo apt-key add -
+  217  service postresql status
+  218  sudo apt-get install postgresql-common
+  219  sudo apt-get install postgresql-9.5 libpq-dev
+  220  sudo sh -c "echo 'deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main' > /etc/apt/sources.list.d/pgdg.list"
+  221  wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo apt-key add -
+  222  sudo apt-get update
+  223  sudo apt-get install postgresql-9.5 libpq-dev 
+  224  service postresql status
+  225  sudo service postgresql start
+  226  bundle
+  227  clear
+  228  bundle install
+  229  rails server
+  230  sudo -u postgres createuser erdal -s
+  231  rails server
+  232  sudo -u postgres psql
+  233  cd Masaüstü
+  234  ls
+  235  cd idea_board
+  236  sudo -u postgres psql
+  237  cd Masaüstü
+  238  cd idea_board
+  239  sudo -u postgres psql
+  240  rails server
+  241  bundle install
+  242  exit
+  243  cd Masaüstü
+  244  cd idea_board
+  245  rails server
+  246  service postresql status
+  247  service postgresql status
+  248  cd ..
+  249  rem -rf idea*
+  250  rm -rf idea*
+  251  cd Masaüstü
+  252  rails new idea_board -d postgresql
+  253  cd Masaüstü
+  254  ls
+  255  cd idea_board
+  256  rails server
+  257  rails db:create
+  258  psql --v
+  259  sudo -u postgres psql
+  260  sudo -u postgres createuser chris -s
+  261  sudo -u postgres createuser rails -s
+  262  sudo -u postgres psql
+  263  rake db:create
+  264  rails server
+  265  echo $USER
+  266  clear
+  267  rails server
+  268  rails generate controller IdeasController
+  269  rails server
+  270  rails destroy controller
+  271  rails server
+  272  rails generate controller Ideas
+  273  rails server
+  274  cd Masaüstü
+  275  cd idea_board
+  276  rails generate model Idea title:string description:text
+  277  sudo -u postgres rails
+  278  sudo -u postgres psql
+  279  rails db:migrate
+  280  rails console
+  281  bundle
+  282  rails console
+  283  rails generate migration AddReferralToIdeas referral:stirng
+  284  rails db:migrate
+  285  rails generate migration AddReferralToIdeas referral:string
+  286  rails db:migrate
+  287  rails generate migration RemoveReferralFromIdeas referral:string
+  288  annotate
+  289  rails db:migrate
+  290  bash
+  291  rbenv versions
+  292  rake db:migrate:status
+  293  ping 192.168.1.1
+  294  ping google.com
+  295  ls all
+  296  ls -a
+  297  rails generate ChangeCategoriesNamesTotittle
+  298  rails db:migrate
+  299  rails generate ChangeCategoriesNamesToTittle
+  300  rails generate migration ChangeCategoriesNamesToTittle
+  301  rake db:migration
+  302  rails db:migrate
+  303  rake db:migrate:status
+  304  rake db:rollback STEP=2
+  305  rake db:migrate:status
+  306  rake db:rollback STEP[2]
+  307  rake db:rollback STEP=[2]
+  308  rake db:rollback STEP=2
+  309  rake db:migrate:status
+  310  rake db:rollback STEP=2
+  311  rake db:migrate:status
+  312  rake db:rollback STEP=2
+  313  rake db:migrate
+  314  rake db:migrate:status
+  315  rake db:rollback
+  316  rake db:migrate:status
+  317  rake db:rollback STEP=2
+  318  rake db:migrate
+  319  rake db:rollback STEP=2
+  320  rake db:rollback
+  321  rails db:rollback
+  322  rake db:rollback
+  323  rails db:rollback
+  324  rails db:migrate
+  325  rake db:migrate:status
+  326  rake db:rollback STEP=2
+  327  ls
+  328  cd Masaüstü
+  329  ls
+  330  cd Masaüstü
+  331  rails new Resto
+  332  rails g migration NewPlace name:string adress:string established:string phonenumber:Fixnum email:text city:string description:string
+  333  cd Masaüstü
+  334  rails new Resto
+  335  rails g model Place name:string adress:string established:string phone_number:string email:string city:string description:text
+  336  ls
+  337  cd Masaüstü
+  338  rails new Resto
+  339  cd Resto
+  340  5.class
+  341  bash
+  342  rails g model Place name:string adress:string establiished:string phone_number:Fixnum email:text city:string description:text
+  343  rails g model Reservation date:text number_of_people:Fixnum place_id:Fixnum
+  344  rails g model Reservation date:text number_of_people:Fixnum place_id:Fixnum customer_id:Fixnum
+  345  rake db:migrate
+  346  rails db:migrate:status
+  347  rails db:migrate
+  348  rake db:rollback
+  349  rails db:migrate:status
+  350  exit
+  351  cd Masaüstü
+  352  rails new Resto
+  353  cd Resto
+  354  rails g model Place name:string adress:string established:string phone_number:Fixnum email:text city:string description:text
+  355  rails g model Reservation date:Fixnum number_of_people:Fixnum place_id:Fixnum customer_id:Fixnum
+  356  rails g model Comment customer_id:Fixnum place_id:Fixnum body:text
+  357  rails g Category name:string
+  358  rails g model Category name:string
+  359  rails g model Customer firstname:string lastname:string email:text password:text phone_number:Fixnum
+  360  rails g model Food name:text
+  361  rails db:migrate:status
+  362  rails db:migrate
+  363  rails db:migrate:status
+  364  rails new Resto
+  365  exi
+  366  exit
+  367  cd Masaüstü
+  368  rails new Resto
+  369  rails g model Place name:string name:string established:string phone_number:text email:string city:string description:text
+  370  cd Resto
+  371  rails g model Place name:string name:string established:string phone_number:text email:string city:string description:text
+  372  rails db:migrate
+  373  rails db:migrate:status
+  374  rails g model Reservation id:string date:string number_of_people:string place_id:string customer_id:string
+  375  rails db:migrate:status
+  376  rake db:migrate
+  377  rails db:migrate:status
+  378  rails g model Reservation date:string number_of_people:string place_id:string customer_id:string
+  379  rails db:migrate:status
+  380  rake db:migrate
+  381  clear
+  382  cd Masaüstü
+  383  cd Resto
+  384  rake db:rollback
+  385  rails db:migrate.status
+  386  rails db:migrate:status
+  387  rm -rf Reservation
+  388  rails db:migrate:status
+  389  rake db:migrate
+  390  rails g model Reservation date:string number_of_people:string place_id:string customer_id:string
+  391  rails db:migrate:status
+  392  rake db:migrate
+  393  rails db:migrate:status
+  394  rails g model Comment customer_id:string place_id:string body:text
+  395  rails db:migrate:status
+  396  rails db:migrate
+  397  rails db:migrate:status
+  398  rails g model Category name:string
+  399  rake db:migrate:status
+  400  rake db:migrate
+  401  rake db:migrate:status
+  402  rails g model Customer firstname:string lastname:string email:text password:text phone_number:string
+  403  rails g model Food name:string
+  404  rake db:migrate:status
+  405  rake db:migrate
+  406  rake db:migrate:status
+  407  exit
+  408  cd Masaüstü
+  409  cd Resto
+  410  rails server
+  411  rails console
+  412  rake db:migrate:status
+  413  rake db:migrate
+  414  rake db:migrate:status
+  415  rake db:migrate
+  416  rake db:migrate:status
+  417  cd Masaüstü
+  418  ls -a
+  419  ls 
+  420  cd Reato
+  421  cd Resto
+  422  bundle
+  423  cd Masa
+  424  cd Masaüstü
+  425  cd idea_board
+  426  bundle
+  427  git add.
+  428  git add
+  429  git commit
+  430  git add.
+  431  git add .
+  432  git init
+  433  git add.
+  434  git add .
+  435  git commit
+  436  git remote -v
+  437  git remote add origin https://github.com/rh0th0mir/ideaboard.git
+  438  git add .
+  439  git commit -m "Project project"
+  440  git remote -v
+  441  git push
+  442  git remote rm origin
+  443  git remote add origin git@github.com:rh0th0mir/ideaboard.git
+  444  git push
+  445  git remote add origin git@github.com:rh0th0mir/ideaboard.git
+  446  git commit
+  447  git push
+  448  git remote origin git@github.com:rh0th0mir/ideaboard.git
+  449  git commit -m "added"
+  450  git push origin master
+  451  rails g migration add_index_to_category_title
+  452  rails db:migrate:status
+  453  rails db:migrate
+  454  rails g model Category title:string description:text
+  455  rails g migration Category
+  456  rails db:migrate:status
+  457  rails db:migrate
+  458  rails console
+  459  rails db:migrate:status
+  460  rails db:rollback
+  461  rails db:migrate:status
+  462  rails db:rollback STEP=2
+  463  rails db:migrate:status
+  464  rake db:migrate
+  465  rake db:migrate:status
+  466  rake db:drop
+  467  rake db:create
+  468  rake db:migrate
+  469  rake db:migrate:status
+  470  rake db:migrate
+  471  rails g migration add_index_to_categories_title
+  472  rake db:migrate
+  473  rake db:migrate:status
+  474  c=Category.new
+  475  c = category.new
+  476  c=Category.new
+  477  rails console
+  478  clear
+  479  rails console
+  480  git push origin master
+  481  rails console
+  482  git add .
+  483  git add.
+  484  git add .
+  485  git add --all
+  486  git commit -m "update"
+  487  git push origin master
+  488  git clone git@github.com:Lyk2016RoR/idea_board.git
+  489  cd ..
+  490  mkdir idea_board2
+  491  cd idea_board2
+  492  git clone git@github.com:Lyk2016RoR/idea_board.git
+  493  rake db:drop
+  494  rails db:drop
+  495  bundle
+  496  bundle install
+  497  clear
+  498  rake db:migrate
+  499  rake db:drop
+  500  clear
+  501  exit
+  502  cd Masaüstü
+  503  LS
+  504  ls
+  505  cd idea_board2
+  506  rails server
+  507  clear
+  508  rake db:drop
+  509  rails db:drop
+  510  cleaar
+  511  clear
+  512  rails db:drop
+  513  ls
+  514  cd idea_board
+  515  rails db:drop
+  516  rails db:create
+  517  $USER
+  518  sudo -u postgres createuser $USER -s
+  519  rails db:create
+  520  rails db:migrate
+  521  rails db:drop
+  522  rails db:create
+  523  rails db:migrate
+  524  rails db:migrate:status
+  525  rails console
+  526  irb
+  527  cd Masaüstü
+  528  ls
+  529  cd idea_board2
+  530  ls
+  531  cd idea_board
+  532  irb
+  533  ls
+  534  Cd Masaüstü
+  535  cd Masaüstü
+  536  cd idea_board2
+  537  ls
+  538  cd idea_board
+  539  rails console
+  540  rails g migration add_planned_to_ideas planned_to:date
+  541  rake db:migrate
+  542  rake db:migrate:status
+  543  exit
+  544  cd Masaüstü
+  545  cd idea_board2
+  546  cd idea_board
+  547  rails console
+  548  sudo nc -lvn 80
+  549  cd Masaüstü
+  550  cd idea_board
+  551  exit
+  552  ls
+  553  cd Masaüstü
+  554  ls
+  555  cd idea_board2
+  556  cd idea_board
+  557  idea.all
+  558  rails console
+  559  cd Masaüstü
+  560  cd idea_board2
+  561  cd idea_board
+  562  rails server
+  563  cd Masaüstü
+  564  cd Project/
+  565  rails new Resto
+  566  bundle
+  567  bundle install
+  568  cd Resto
+  569  bundle
+  570  service postgresql status
+  571  service postgresql start
+  572  rake db:create
+  573  rails g model Place name:string adress:text established:string phone_number:int email:string city:string description:string
+  574  rails g model Reservation date:Date number_of_people:int place_id:int customer_id:int
+  575  rails g model Comment customer_id:int place_id:int body:text
+  576  rails g model Category name:string
+  577  rails g model Food name:string
+  578  rails g model Customer firstname:string lastname:string email:string password:text
+  579  rails db:migrate:status
+  580  rails g model Customer firstname:string lastname:string email:string password:text phone_number:int
+  581  rails g model FoodPlace place_id:int food_id:int
+  582  Date.today
+  583  rails db:migrate
+  584  rake db:migrate
+  585  rails db:migrate:status
+  586  rails g controller places
+  587  rails console
+  588  cd Masaüstü
+  589  cd Project
+  590  cd Resto
+  591  rails server
+  592  exit
+  593  cd Masaüstü
+  594  cd Project
+  595  ls
+  596  cd Resto
+  597  rails server
+  598  cd Masaüstü
+  599  cd Project
+  600  cd idea_board2
+  601  cd idea_board
+  602  git pull 
+  603  rails console
+  604  rails db:migrate:status
+  605  git status
+  606  git stash
+  607  git status
+  608  git pull
+  609  git stash pop
+  610  git checkout -f
+  611  git status
+  612  rm app/views/ideas/index.html.erb
+  613  rm db/migrate/20160809132229_add_planned_to_ideas.rb
+  614  git pull
+  615  git log
+  616  rails routes
+  617  cd Masaüstü
+  618  cd Project
+  619  cd idea_board2
+  620  cd idea_board
+  621  rails server
+  622  rails db:migrate
+  623  rake db:reset
+  624  rails server
+  625  rails console
+  626  rails server
+  627  git pull
+  628  rails db:drop
+  629  rails db:create
+  630  rails db:migrate
+  631  rails db:seeds
+  632  rails db:seed
+  633  rails server
+  634  rails routes
+  635  ls Masaüstü
+  636  cd Masaüstü
+  637  ls
+  638  cd Project
+  639  ls
+  640  cd idea_board2
+  641  rails server
+  642  cd idea_board
+  643  rails server
+  644  cd Masaüstü
+  645  cd Project
+  646  cd Resto
+  647  rails server
+  648  cd ..
+  649  cd Resto
+  650  rails server
+  651  cd Masaüstü
+  652  cd Project
+  653  cd Resto
+  654  rails console
+  655  cd Masaüstü
+  656  cd Project
+  657  cd idea_board2
+  658  cd idea_board
+  659  rail server
+  660  rails server
+  661  cd ..
+  662  cd Resto
+  663  rails server
+  664  rake routes
+  665  rails server
+  666  rails console
+  667  rails routes
+  668  cd Masaüstü
+  669  cd Project
+  670  cd idea_board
+  671  cd ..
+  672  cd idea_board2
+  673  cd idea_board
+  674  rails routes
+  675  cd Masaüstü
+  676  cd Project
+  677  cd idea_board2
+  678  cd idea_board
+  679  rails server
+  680  rails routes
+  681  rails serer
+  682  rails server
+  683  rails s
+  684  subl .
+  685  rails s
+  686  git diff
+  687  git status
+  688  git remote -v
+  689  git log
+  690  vi
+  691  git log
+  692  zeal-packaging
+  693  zeal packaging
+  694  sudo apt-get install zeal
+  695  ok
+  696  exit
+  697  ruby.ruby
+  698  exit
+  699  cd ..
+  700  cd Masaüstü
+  701  ls
+  702  cd pc
+  703  cd Masaüstü
+  704  ruby ruby.rb
+  705  qwqdfasdfadsf
+  706  exit
+  707  cd Masaüstü
+  708  ruby ruby
+  709  ruby ruby.rb
+  710  cd Masaüstü
+  711  ruby ruby.rb
+  712  letter_frequency
+  713  irb
+  714  exit
+  715  cd Masaüstü
+  716  cd Project
+  717  cd idea_board2
+  718  cd idea_board
+  719  rake routes
+  720  rails s
+  721  cd Masaüstü
+  722  cd Project
+  723  cd idea_board2
+  724  cd idea_board
+  725  rails routes
+  726  rake routes
+  727  rails s
+  728  git pull
+  729  git stash
+  730  git pull
+  731  rm -rf _form.html.erb
+  732  rm -rf edit.html.erb
+  733  git pull
+  734  git remote
+  735  git pull
+  736  exit
+  737  cd Masaüstü
+  738  cd Project
+  739  cd idea_board
+  740  cd ..
+  741  cd idea_board2
+  742  cd idea_board
+  743  rails routes
+  744  git log
+  745  rails server
+  746  rails g migration add_category_id_to_ideas
+  747  rails db:migrate:status
+  748  rails db:migrate
+  749  rails db:migrate:status
+  750  rails db:migrate
+  751  rails db:migrate:status
+  752  rails console
+  753  rails server
+  754  cd Masaüstü
+  755  cd Project
+  756  cd idea_board2
+  757  cd idea_board
+  758  rails server
+  759  rails console
+  760  pgadmin3
+  761  git pull
+  762  git status
+  763  rm db/migrate/20160813065923_add_category_id_to_ideas.rb
+  764  rn .idea/
+  765  git stash
+  766  git status
+  767  git pull
+  768  cd ..
+  769  cd Resto
+  770  rails routes
+  771  rails server
+  772  cd ..
+  773  cd idea_board
+  774  git db:migrate:status
+  775  rails db:migrate:status
+  776  cd Resto
+  777  cd ..
+  778  cd Resto
+  779  rails db:migrate:status
+  780  rails console
+  781  rails g migrate add_category_id_to_places
+  782  rails g migration add_category_id_to_places
+  783  rails db:migrate:status
+  784  rails db:migrate
+  785  rails db:migrate:status
+  786  rails routes
+  787  rails console
+  788  exit
+  789  cd ..
+  790  cd idea_board2
+  791  cd idea_board
+  792  cd Masa
+  793  cd Masaüstü
+  794  cd Project
+  795  cd idea_board2
+  796  cd idea_board
+  797  rails server
+  798  rails db:migrate
+  799  rails db:migrate:status
+  800  mv db/migrate/201608130659065_add_category_id_to_ideas.rb 20160813065923_add_category_id_to_ideas.rb
+  801  mv 20160813065923_add_category_id_to_ideas.rb db/migrate/20160813065923_add_category_id_to_ideas.rb
+  802  rake db:rollback
+  803  rails db:migrate:status
+  804  git status
+  805  git checkout -f
+  806  git status
+  807  rails db:migrate:status
+  808  rails db:migrate
+  809  git pull
+  810  exit
+  811  cd Masaüstü
+  812  cd Project
+  813  cd idea_board
+  814  rails routes
+  815  cd Masaüstü
+  816  cd Project
+  817  cd idea_board
+  818  rails serber
+  819  rails server
+  820  git pull
+  821  rails server
+  822  ruby array.collect
+  823  ruby array collect
+  824  EXİT
+  825  exit
+  826  cd Masaüstü
+  827  cd Project/
+  828  cd idea_board
+  829  git pull
+  830  exit
+  831  cd Masaüstü
+  832  cd Project
+  833  cd Resto
+  834  rails server
+  835  cd Masaüstü
+  836  ruby fibo.rb
+  837  15
+  838  cd Masaüstü
+  839  ruby fibo.rb
+  840  exit
+  841  cd Masa
+  842  cd Masaüstü
+  843  ruby fibo.rb
+  844  15
+  845  cd Masaüstü
+  846  ruby fibo.rb
+  847  exit
+  848  cd Masaüstü
+  849  cd Project
+  850  cd idea_board
+  851  cd Masaüstü
+  852  cd Project
+  853  cd idea_board
+  854  rails server
+  855  cd ..
+  856  cd Resto
+  857  rails server
+  858  cd  ..
+  859  cd Resto
+  860  rails console
+  861  cd Masaüstü
+  862  cd Project
+  863  cd Resto
+  864  rails db:migrate:status
+  865  p = Place.new
+  866  Place.all
+  867  rails routes
+  868  Category.all
+  869  i = Place.new
+  870  rails console
+  871  cd Masaüstü
+  872  cd Project
+  873  cd Resto
+  874  rails console
+  875  cd Masaüstü
+  876  cd Project/
+  877  ls
+  878  cd Places/
+  879  rails server
+  880  cd Masaüstü
+  881  cd Project
+  882  cd Places
+  883  rails server
+  884  cd Masaüstü
+  885  cd Project
+  886  cd Places
+  887  rails db:migrate:status
+  888  psql -d postgres -U postgres -h localhost
+  889  cd Masaüstü
+  890  cd Project
+  891  cd Masa
+  892  cd Masaüstü
+  893  cd Project
+  894  cd Places
+  895  rails server
+  896  rails db:migrate
+  897  rails db:drop
+  898  rails db:create
+  899  rails db:migrate
+  900  rails s
+  901  rails db:reset
+  902  rails s
+  903  cd Masaüstü
+  904  cd Project
+  905  cd Places
+  906  rails server
+  907  CD Masaüs
+  908  cd Masaüstü
+  909  cd Project
+  910  cd Places
+  911  rails server
+  912  rails g contoller categories
+  913  rails g controller categories
+  914  rails server
+  915  cd Masaüdüt
+  916  cd Masaüstü
+  917  Pr
+  918  cd Project
+  919  cd Places
+  920  rails server
+  921  rails c
+  922  rails s
+  923  cd Masaüstü
+  924  cd Project
+  925  cd idea_board
+  926  cd ..
+  927  cd Places
+  928  cd ..
+  929  cd idea_board
+  930  cd ..
+  931  rails new address_book
+  932  bundle
+  933  bundle install
+  934  cd address_book
+  935  bundle
+  936  rails server
+  937  install gem
+  938  gem --help
+  939  gem install
+  940  cd Masaüstü
+  941  cd Project
+  942  cd address_book
+  943  gem install
+  944  bundle install
+  945  bundle show [pg]
+  946  gem install
+  947  cd Masaüstü
+  948  ruby address_book.rb
+  949  p1
+  950  exit
+  951  cd Masaüstü
+  952  ruby address_book.rb
+  953  cd Project
+  954  cd Places
+  955  rails server
+  956  cd Masaüstü
+  957  cd Project
+  958  cd Places
+  959  rails db:migrate:status
+  960  rails routes
+  961  rails g contoller Comments
+  962  rails g controller Comments
+  963  cd ..
+  964  cd idea_board
+  965  git pull
+  966  bundle
+  967  git pull
+  968  rvm list
+  969  rails -v
+  970  rails s
+  971  rails db:migrate
+  972  rails db:reset
+  973  rails s
+  974  rails db:reset
+  975  rails db:migrate:status
+  976  rails s
+  977  git pull
+  978  rm db/seeds.rb
+  979  git pull
+  980  rails db:reset
+  981  rails db:migrate:status
+  982  git pull
+  983  rails db:migrate
+  984  eit
+  985  exit
+  986  cd Masaüstü
+  987  cd Project
+  988  cd idea_board
+  989  git status
+  990  git pull
+  991  rails db:migrate:status
+  992  nano config/database.yml
+  993  exit
+  994  cd Masaüstü
+  995  cd Project
+  996  cd idea_board
+  997  git pull
+  998  rails db:migrate
+  999  rails db:migrate:status
+ 1000  git pull
+ 1001  rails s
+ 1002  cd Masaüstü
+ 1003  cd Project
+ 1004  cd idea_board
+ 1005  rails s
+ 1006  git pull
+ 1007  rails s
+ 1008  bundle
+ 1009  rails s
+ 1010  rails db:migrate
+ 1011  rails s
+ 1012  cd Masaüstü
+ 1013  cd Project
+ 1014  cd Places
+ 1015  rails server
+ 1016  rails s
+ 1017  cd Masaüstü
+ 1018  cd Project
+ 1019  cd Places
+ 1020  rails generate devise Customer
+ 1021  bundle
+ 1022  rails generate devise Customer
+ 1023  rails generate devise install
+ 1024  rails db:migrate:status
+ 1025  rails db:migrate
+ 1026  bundle
+ 1027  rails db:migrate
+ 1028  rails c
+ 1029  cd Masaüstü
+ 1030  cd Project
+ 1031  cd Places
+ 1032  rails db:migrate
+ 1033  pwd
+ 1034  ls
+ 1035  cat Gemfile
+ 1036  nano Gemfile
+ 1037  bundle
+ 1038  cat Gemfilerails generate devise:install
+ 1039  rails generate devise:install
+ 1040  git stauts
+ 1041  git status
+ 1042  git init
+ 1043  rails generate devise:install
+ 1044  rails generate devise Customer
+ 1045  rake db:migrate
+ 1046  rake db:drop
+ 1047  rake db:create
+ 1048  rake db:migrate
+ 1049  rake db:reset
+ 1050  rake db:drop
+ 1051  rails db:migrate:status
+ 1052  rails db:rollback
+ 1053  rails db:migrate:status
+ 1054  rails db:migrate
+ 1055  rake db:drop
+ 1056  pwd
+ 1057  ls
+ 1058  rake db:drop
+ 1059  rake db:create
+ 1060  rake db:migrate
+ 1061  rake db:drop
+ 1062  \tbin/rails db:environment:set RAILS_ENV=development
+ 1063  RAILS_ENV rake db:drop
+ 1064  RAILS_ENV=rake db:drop
+ 1065  RAILS_ENV=rails rake db:drop
+ 1066  RAILS_ENV=development rake db:drop
+ 1067  /rails db:environment:set RAILS_ENV=development
+ 1068  rails db:environment:set RAILS_ENV=development
+ 1069  rake db:drop
+ 1070  rake db:create
+ 1071  rake db:migrate
+ 1072  cd Project/
+ 1073  cd Masaüstü
+ 1074  exit
+ 1075  cd Masaüstü
+ 1076  cd Project
+ 1077  cd idea
+ 1078  exit
+ 1079  cd Masaüstü
+ 1080  cd Project
+ 1081  cd idea_board
+ 1082  cd ..
+ 1083  cd Places
+ 1084  rails server
+ 1085  cd Mas
+ 1086  clear
+ 1087  exit
+ 1088  cd Masaüstü
+ 1089  cd Project
+ 1090  cd Places
+ 1091  rails db:migrate
+ 1092  rails db:migrate:status
+ 1093  cd Masaüstü
+ 1094  cd Project
+ 1095  cd idea_board
+ 1096  git pull
+ 1097  cd ..
+ 1098  cd Places
+ 1099  rails routes
+ 1100  rails db:migrate:status
+ 1101  rails s
+ 1102  rails c
+ 1103  rails db:seed
+ 1104  rails s
+ 1105  rails db:reset
+ 1106  rails s
+ 1107  rails g devise Owner
+ 1108  rails g migration AddOwnertoPlaces owner:references
+ 1109  rails s
+ 1110  rails db migrate
+ 1111  rails db:migrate:status
+ 1112  rails db:rollback
+ 1113  rails db:migrate:status
+ 1114  rails db:migrate
+ 1115  rails db:migrate:status
+ 1116  rails g migration AddOwnerToPlaces owner:references
+ 1117  rails db:migrate
+ 1118  rails db:migrate:status
+ 1119  rails db:reset
+ 1120  rails db:migrate:status
+ 1121  rails server
+ 1122  /.ssh
+ 1123  ls # config id_rsa id_rsa.pub known_hosts
+ 1124  clea
+ 1125  clear
+ 1126  cd Masaüstü
+ 1127  cd Project
+ 1128  cd Places
+ 1129  git status
+ 1130  cd Masaüstü
+ 1131  rails new deneme
+ 1132  cd deneme
+ 1133  git init
+ 1134  git add .
+ 1135  git status
+ 1136  git commit -m "ilk git proje"
+ 1137  git remote add origin git@github.com:rh0th0mir/Places.git
+ 1138  git push -u origin master
+ 1139  clear
+ 1140  cd ..
+ 1141  clear
+ 1142  cd Project
+ 1143  cd Places
+ 1144  git add .
+ 1145  git commit -m "Place Project first Repo"
+ 1146  git remote add origin git@github.com:rh0th0mir/Places.git
+ 1147  git push -u origin master
+ 1148  git status
+ 1149  cd ..
+ 1150  cd idea_board
+ 1151  rails server
+ 1152  git pull
+ 1153  rails db:migrate
+ 1154  rails db:migrate:status
+ 1155  rails server
+ 1156  cd Masaüstü
+ 1157  cd Project
+ 1158  cd idea_board
+ 1159  rails s
+ 1160  git pull
+ 1161  rails s
+ 1162  rails db:migrate
+ 1163  rails s
+ 1164  git pull
+ 1165  rails s
+ 1166  git pull
+ 1167  cd ..
+ 1168  cd Places
+ 1169  git pull
+ 1170  clear
+ 1171  rails server
+ 1172  cd Masaüstü
+ 1173  cd Project
+ 1174  cd Places
+ 1175  rails routes
+ 1176  cd Masaüstü
+ 1177  cd Project
+ 1178  cd idea_board
+ 1179  git pull
+ 1180  clear
+ 1181  rails c
+ 1182  rails s
+ 1183  xi
+ 1184  exit
+ 1185  git pull
+ 1186  cd Masaüstü
+ 1187  cd Project
+ 1188  cd Places
+ 1189  git db:migrate:status
+ 1190  rails db:migrate:status
+ 1191  rails db:rollback
+ 1192  rails db:migrate:status
+ 1193  rails db:migrate
+ 1194  rails db:reset
+ 1195  rais db:migrate
+ 1196  rails db:migrate
+ 1197  rails db:migrate:status
+ 1198  cd Masaüstü
+ 1199  cd Project
+ 1200  cd Places
+ 1201  git clone git@github.com:rh0th0mir/Places.git
+ 1202  rails db:migrate:status
+ 1203  rails s
+ 1204  exit
+ 1205  cd Masaüstü/
+ 1206  cd Project
+ 1207  cd idea_board
+ 1208  git pull
+ 1209  cd ..
+ 1210  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+ 1211  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh --no-check-certificate
+ 1212  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh --no-check-certificate | sh
+ 1213  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh --no-check-certificate
+ 1214  heroku login
+ 1215  sudo heroku login
+ 1216  sudo su
+ 1217  heroku login
+ 1218  sudo apt-get install heroku
+ 1219  sudo apt-get install heroku-toolbelt
+ 1220  heroku login
+ 1221  exit
+ 1222  cd Masaüstü
+ 1223  cd Project
+ 1224  rails new Proje
+ 1225  cd Proje/
+ 1226  git clone https://github.com/esrefv/vernewlace.git
+ 1227  rails s
+ 1228  rails db:migrate
+ 1229  rails db:migrate:status
+ 1230  cd Masaüstü
+ 1231  cd Project
+ 1232  cd Places
+ 1233  rails g controller Reservation
+ 1234  rails g controller Reservations
+ 1235  cd ..
+ 1236  exit
+ 1237  cd Masaüstü
+ 1238  cd Project
+ 1239  cd Places
+ 1240  rails db:migrate
+ 1241  rails db:migrate:status
+ 1242  rails s
+ 1243  cd ..
+ 1244  rails new Proje
+ 1245  git clone https://github.com/esrefv/vernewlace.git
+ 1246  cd ..
+ 1247  clear
+ 1248  cd Proje
+ 1249  rails db:drop
+ 1250  rails db:reset
+ 1251  rails db:migrate
+ 1252  rails db:migrate:status
+ 1253  rails s
+ 1254  cd Masaüstü
+ 1255  cd Project/
+ 1256  heroku login
+ 1257  git init
+ 1258  git add .
+ 1259  git commit - "ikinci place"
+ 1260  git commit -m "ikinci place"
+ 1261  git remote add origin git@github.com:rh0th0mir/Proje.git
+ 1262  git push -u origin master
+ 1263  git status
+ 1264  rail db:migrate:status
+ 1265  rails db:migrate:status
+ 1266  cd Proje
+ 1267  git init
+ 1268  git add .
+ 1269  git commit - "ikinci place"
+ 1270  git commit -m "ikinci place"
+ 1271  git remote add origin git@github.com:rh0th0mir/Proje.git
+ 1272  git push -u origin master
+ 1273  git status
+ 1274  rails db:migrate:status
+ 1275  bundle
+ 1276  heroku apps:create Proje
+ 1277  heroku apps:create proje
+ 1278  heroku apps:create projeplace
+ 1279  git push heroku master
+ 1280  heroku run rake db:create
+ 1281  heroku run rake db:migrate
+ 1282  heroku open
+ 1283  heroku run rake db:seed
+ 1284  cd Masaüstü
+ 1285  cd Project
+ 1286  cd idea_board
+ 1287  exit
+ 1288  cd Masaüstü
+ 1289  cd Rails
+ 1290  cd idea_board
+ 1291  git pull
+ 1292  bundle
+ 1293  rails db:migrate:status
+ 1294  rails db:migrate
+ 1295  rails db:migrate:status
+ 1296  rails s
+ 1297  rails db:seed
+ 1298  rails s
+ 1299  exir
+ 1300  exit
+ 1301  cd Masaüstü
+ 1302  cd Rails
+ 1303  cd idea_board
+ 1304  git pull
+ 1305  rails db:reset
+ 1306  clear
+ 1307  rails s
+ 1308  git pull
+ 1309  exit
+ 1310  cd Masaüstü
+ 1311  cd Rails
+ 1312  cd idea_board
+ 1313  git pull
+ 1314  exit
+ 1315  cd Masaüstü
+ 1316  cd Rails
+ 1317  cd Proje
+ 1318  rails s
+ 1319  exit
+ 1320  cd Masaüstü
+ 1321  cd Rails
+ 1322  cd idea_board
+ 1323  git pull
+ 1324  clear
+ 1325  rails s
+ 1326  cd ..
+ 1327  cd Proje
+ 1328  rails g mailer CommentMailer
+ 1329  rails s
+ 1330  cd Masaüstü
+ 1331  cd Rails
+ 1332  git clone git@github.com:Lyk2016RoR/ayk.git
+ 1333  cd ayk
+ 1334  bundle
+ 1335  git db:migrate:status
+ 1336  rails db:migrate:status
+ 1337  rails g model Book id:integer name:string category_id:integer publish_date:date publish_house:string book_series:string printing_number:integer writer_id:integer price:integer
+ 1338  git checkout -b Book
+ 1339  git push origin Book
+ 1340  git branch
+ 1341  rails s
+ 1342  rails db:migrate
+ 1343  rails s
+ 1344  cd ..
+ 1345  cd ayk
+ 1346  rails db:create
+ 1347  rails db:migrate
+ 1348  rails s
+ 1349  rails db:migrate
+ 1350  rails db:migrate:status
+ 1351  rails db:migrate
+ 1352  rails console
+ 1353  rails g controller books_controller
+ 1354  rails s
+ 1355  rails db:migrate
+ 1356  ls
+ 1357  rails db:migrate
+ 1358  rails db:migrate:status
+ 1359  rails db:migrate
+ 1360  git add .
+ 1361  git commit -m "create book"
+ 1362  git push origin Book
+ 1363  git add .
+ 1364  git commit -m "remove schema"
+ 1365  git push origin Book
+ 1366  rails d controller books_controller
+ 1367  rails g controller books
+ 1368  rails s
+ 1369  git push origin Book
+ 1370  rm config/database.yml
+ 1371  git add .
+ 1372  git add --all
+ 1373  rm -rf .idea
+ 1374  git add --all
+ 1375  git commit -m "fix books branch"
+ 1376  git push
+ 1377  git status
+ 1378  git add .
+ 1379  git commit -m "database.yml add to gitignore"
+ 1380  git push
+ 1381  git checkout master
+ 1382  git checkout Book
+ 1383  rails s
+ 1384  git checkout master
+ 1385  rails routes
+ 1386  cd Masaüstü
+ 1387  cd Pr
+ 1388  cd Rails
+ 1389  cd ayk
+ 1390  rails routes
+ 1391  rails s
+ 1392  git pull
+ 1393  cd ..
+ 1394  cd Masaüstü
+ 1395  cd Rails
+ 1396  git clone git@github.com:Lyk2016RoR/ayk.git
+ 1397  cd ayk
+ 1398  git checkout Book
+ 1399  git add .
+ 1400  git commit "FixtoBook"
+ 1401  git commit -m "FixtoBook"
+ 1402  git push origin Book
+ 1403  git checkout master
+ 1404  git pull
+ 1405  git merge Book
+ 1406  git push
+ 1407  git merge origin/category
+ 1408  git commit
+ 1409  git add --all
+ 1410  git commit
+ 1411  git pull
+ 1412  git merge origin/Admin
+ 1413  git push
+ 1414  rails db:migrate:reset
+ 1415  rails db:environment:set RAILS_ENV=development
+ 1416  rails db:migrate:reset
+ 1417  rails db:environment:set RAILS_ENV=development
+ 1418  rails db:migrate:reset
+ 1419  git checkout book
+ 1420  git checkout -b book
+ 1421  git checkout master
+ 1422  git status
+ 1423  git add --all
+ 1424  git commit -m "fix ayk's git problems"
+ 1425  git push
+ 1426  git checkout -b book
+ 1427  git checkout book
+ 1428  git merge master
+ 1429  clear
+ 1430  rails routes
+ 1431  rails s
+ 1432  rails console
+ 1433  rails s
+ 1434  cd Masaüstü
+ 1435  cd Rails
+ 1436  cd ayk
+ 1437  rails d controller books
+ 1438  rails d model Book id:integer name:string category_id:integer publish_date:date publish_house:string book_series:string printing_number:integer writer_id:integer price:integer
+ 1439  rails g model Book  name:string publish_date:date publish_house:string book_series:string printing_number:integer price:integerpage_number:integer
+ 1440  rails db:migrate
+ 1441  rails db:create
+ 1442  rails db:reset
+ 1443  rails db:migrate
+ 1444  rails d model Book  name:string publish_date:date publish_house:string book_series:string printing_number:integer price:integerpage_number:integer
+ 1445  rails db:reset
+ 1446  rails db:migrate:status
+ 1447  rails g model Book  name:string publish_date:date publish_house:string book_series:string printing_number:integer price:integerpage_number:integer
+ 1448  rails db:migrate:status
+ 1449  rails db:migrate
+ 1450  rails d model Book  name:string publish_date:date publish_house:string book_series:string printing_number:integer price:integerpage_number:integer
+ 1451  rails db:migrate:status
+ 1452  rails g model Book  name:string publish_date:date publish_house:string book_series:string printing_number:integer price:integer page_number:integer
+ 1453  rails db:migrate:status
+ 1454  rails db:migrate
+ 1455  rails g controller books
+ 1456  rails console
+ 1457  rails s
+ 1458  rails routes
+ 1459  git add .
+ 1460  git add -all
+ 1461  git add --all
+ 1462  git commit -m "Fix to Books Problem"
+ 1463  git push origin book
+ 1464  git status
+ 1465  rails s
+ 1466  git add .
+ 1467  git commit -m "Add to index for books"
+ 1468  git push origin book
+ 1469  rails s
+ 1470  rails routes
+ 1471  git add --all
+ 1472  git commit -m "Add to newhtml"
+ 1473  git push origin book
+ 1474  git add --all
+ 1475  git commit -m "Add to fix newhtml"
+ 1476  git push origin book
+ 1477  rails routes
+ 1478  rails s
+ 1479  rails console
+ 1480  rails s
+ 1481  git add --all
+ 1482  git commit -m "Publish Problem"
+ 1483  git push origin book
+ 1484  git checkout master
+ 1485  git push --force
+ 1486  sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
+ 1487  sudo apt-get update; sudo apt-get install -y sublime-text-installer
+ 1488  ./sublime
+ 1489  subl
+ 1490  cd Masaüstü
+ 1491  cd Rails
+ 1492  cd ayk
+ 1493  git delete --all
+ 1494  git --help
+ 1495  git rm --all
+ 1496  git -n
+ 1497  git status
+ 1498  exit
+ 1499  cd Masaüstü
+ 1500  cd Rails
+ 1501  git clone git@github.com:Lyk2016RoR/ayk.git
+ 1502  cd ayk
+ 1503  bundle
+ 1504  clear
+ 1505  rails g model Book name:string published_date:date page_number:integer
+ 1506  bundler
+ 1507  rails db:create
+ 1508  ruby -v
+ 1509  rails -v
+ 1510  bundle install
+ 1511  cd Masaüstü
+ 1512  cd Rails
+ 1513  cd ayk
+ 1514  bundler
+ 1515  bundle install
+ 1516  nano Gemfile
+ 1517  bundle
+ 1518  rails g model Book name:string published_date:date page_number:integer
+ 1519  rails console
+ 1520  rails routes
+ 1521  clear
+ 1522  rails g controller Books
+ 1523  rails db:create
+ 1524  rails db:migrate
+ 1525  rails g controller Books
+ 1526  rails s
+ 1527  git checkout -b book
+ 1528  git add .
+ 1529  git push origin book
+ 1530  git pull
+ 1531  git push origin book
+ 1532  git init
+ 1533  git add .
+ 1534  git commit -m "Created new and index page in Books"
+ 1535  git push origin book
+ 1536  git remotes -v
+ 1537  git remote -v
+ 1538  git add .
+ 1539  git add -all
+ 1540  git add --all
+ 1541  git commit -m "created new and index page in Books"
+ 1542  git push -u origin book
+ 1543  git pull
+ 1544  git add .
+ 1545  git commit -m "index new book"
+ 1546  git push -u origin book
+ 1547  git checkout master
+ 1548  git add .
+ 1549  git status
+ 1550  git commit -m "new and index page, Books"
+ 1551  git branch
+ 1552  git checkout book
+ 1553  git checkout --
+ 1554  git status
+ 1555  git push origin book++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1556  git status
+ 1557  git checkout master
+ 1558  git add .
+ 1559  git commit -m "yolla"
+ 1560  git push origin master
+ 1561  git pull
+ 1562  clea
+ 1563  clear
+ 1564  cd Masaüstü
+ 1565  cd Rails
+ 1566  cd ayk
+ 1567  git pull
+ 1568  exit
+ 1569  cd Masaüstü
+ 1570  cd Rails
+ 1571  cd ayk
+ 1572  git pull
+ 1573  rm -rf db/schema.rb
+ 1574  git pull
+ 1575  exit
+ 1576  cd Masaüstü
+ 1577  cd Rails
+ 1578  cd ayk
+ 1579  git pull
+ 1580  rm -rf app/controllers/books_controller.rb
+ 1581  rm -rf app/models/book.rb
+ 1582  git pull
+ 1583  rails console
+ 1584  cd Masaüstü
+ 1585  cd R
+ 1586  cd Rails
+ 1587  cd ayk
+ 1588  rails c
+ 1589  rails db:reset
+ 1590  rails console
+ 1591  rails g migration add_category_to_books category:references
+ 1592  rails db:migrate
+ 1593  rails console
+ 1594  git add .
+ 1595  git add --all
+ 1596  git commit -m "Sonunda references ı ogrendık"
+ 1597  git push origin master
