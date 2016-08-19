@@ -1,11 +1,13 @@
 <%= form_for @book do |f| %>
-	<%= f.label 'name : ' %>
+	<%= f.label 'Kitap Adı : ' %>
 	<%= f.text_field :name %><br>
-		<%= f.label 'published_date : ' %>
+		<%= f.label 'Yayınlanma Tarihi : ' %>
 	<%= f.date_field :published_date %><br>
-		<%= f.label 'page_number : ' %>
+		<%= f.label 'Sayfa Sayısı : ' %>
 	<%= f.text_field :page_number %><br>
+		<%= f.label 'Kategorisi : ' %>
 	<%= f.select :category_id, @categories %><br>
+		<%= f.label 'Yazarı : ' %>
 	<%= f.select :writer_id, @writers %><br><br>
 	<%= f.submit 'Gonder'%><br>
 <% end %>

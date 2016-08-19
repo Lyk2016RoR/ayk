@@ -5,8 +5,10 @@
 		<td><%= @book.name %></td>
 		<td><%= @book.published_date %></td>
 		<td><%= @book.page_number %></td>
-		<td><%= link_to "Güncelle", edit_book_path(@book) %></td>
-		<td><%= link_to "Sil", book_path(@book), method: :delete %></td>
+		<% if current_user.present? and current_user.admin? %>
+			<td><%= link_to "Güncelle", edit_book_path(@book) %></td>
+			<td><%= link_to "Sil", book_path(@book), method: :delete %></td>
+		<% end %>
 	</tr>
 </table><hr>
 <% @book.comments.each do |e| %>
@@ -17,11 +19,14 @@
 	<% end %><br>
 <% end %>
 
-<h4>Yorum Yap</h4><hr>
-<%= form_for [@book, @comment] do |f| %>
-	<%= f.text_area :body %>
-	<%= f.submit %>
+<% if current_user.present? %>
+	<h4>Yorum Yap</h4><hr>
+	<%= form_for [@book, @comment] do |f| %>
+		<%= f.text_area :body %>
+		<%= f.submit %>
+	<% end %>
 <% end %>
-
-<%= link_to "Yazarlara Dön", books_path %>
-<%= link_to "Okundu olarak işaretle", favorites_path(@book), method: :post%>
+<%= link_to "Kitaplara Dön", books_path %>
+<% if current_user.present? %>
+	<%= link_to "Okundu olarak işaretle", favorites_path(@book), method: :post%>
+<% end %>

@@ -12,4 +12,6 @@
 	<% end %>
 </table>
 <hr>
-<h3><%= link_to 'Yeni Kitap', new_book_path %></h3>
+<% if current_user.present? and current_user.admin? %>
+	<h3><%= link_to 'Yeni Kitap', new_book_path %></h3>
+<% end %>
