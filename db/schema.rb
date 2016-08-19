@@ -11,10 +11,14 @@
 # It's strongly recommended that you check this file into your version control system.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20160818200413) do
 =======
 ActiveRecord::Schema.define(version: 20160819065509) do
 >>>>>>> origin/user
+=======
+ActiveRecord::Schema.define(version: 20160819073654) do
+>>>>>>> db1e5a636c4d0359362c77dc9c3f3f11fa67b2f8
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,7 +30,9 @@ ActiveRecord::Schema.define(version: 20160819065509) do
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
     t.integer  "category_id"
+    t.integer  "writer_id"
     t.index ["category_id"], name: "index_books_on_category_id", using: :btree
+    t.index ["writer_id"], name: "index_books_on_writer_id", using: :btree
   end
 
 <<<<<<< HEAD
@@ -44,6 +50,7 @@ ActiveRecord::Schema.define(version: 20160819065509) do
   end
 
   add_foreign_key "books", "categories"
+<<<<<<< HEAD
 =======
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
@@ -64,4 +71,7 @@ ActiveRecord::Schema.define(version: 20160819065509) do
   end
 
 >>>>>>> origin/user
+=======
+  add_foreign_key "books", "writers"
+>>>>>>> db1e5a636c4d0359362c77dc9c3f3f11fa67b2f8
 end
