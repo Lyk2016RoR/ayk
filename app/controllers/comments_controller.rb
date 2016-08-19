@@ -1,6 +1,6 @@
 class CommentsController < ApplicationController
   before_action :authenticate_user!
-  belongs_to :book
+  belongs_to :books
 
   before_action :set_idea
 
